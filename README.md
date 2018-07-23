@@ -1,2 +1,4 @@
-# learn-to-code-python-sql
-A gentle introduction to coding using Python and SQL
+# Introduction to Coding with Python and SQL
+
+A gentle introduction to coding using Python and SQL.
+

@@ -7,7 +7,8 @@ db = records.Database('sqlite:///vets.db')
 rows = db.query('''
     SELECT * 
     FROM gravesites
-    WHERE burial_space = "Open"
+    WHERE state = 'California' AND
+    burial_space = 'Open'
 ''')
 
 print(rows.dataset)
